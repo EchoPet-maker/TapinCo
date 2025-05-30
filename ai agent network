@@ -1,0 +1,20 @@
+ai-agent-network/
+├── agents/
+│   ├── __init__.py
+│   ├── agent_spawner.py
+│   ├── task_manager.py
+│   ├── agent_optimizer.py
+│   ├── system_evolver.py
+│   └── garbage_collector.py
+├── utils/
+│   ├── logger.py
+│   ├── memory.py
+│   └── file_handler.py
+├── core/
+│   ├── main.py
+│   └── scheduler.py
+├── .env.example
+├── requirements.txt
+├── Dockerfile
+├── start.sh
+└── README.md
